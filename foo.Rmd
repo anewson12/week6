@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "New Title"
 author: "Alex Newson"
 date: '2022-11-02'
 output: html_document
@@ -7,6 +7,9 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(palmerpenguins)
 ```
 
 ## R Markdown
